@@ -1,0 +1,117 @@
+﻿
+@{
+    ViewData["Title"] = "Services";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Helpful tool to figure out what clothes would fit best based on body type">
+    <meta name="keywords" content="what's my body type, what clothes would look good on me, what should I wear">
+    <meta name="author" content="Victoria Joseph">
+    <title>À La Mode | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">À</span> La Mode</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li class="current"><a href="services">Services</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    @*<section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>*@
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Services</h1>
+                <ul id="services">
+                    <li>
+                        <h3>Find Your Type</h3>
+
+                        <p>Ectomorph|Mesomorph|Endomorph</p>
+                        <form action="https://www.runnersworld.com/health-injuries/a20818211/the-3-body-types-explained/">
+                            <input type="submit" value="For Her" />
+                        </form>
+                        <form action="https://iamalpham.com/mens-body-types/">
+                            <input type="submit" value="For Him" />
+                        </form>
+                    </li>
+                    <li>
+                        <h3>Find Your Size</h3>
+
+                        <p>XS-XXL</p>
+                        <form action="https://www.tactics.com/info/womens-sizing-charts">
+                            <input type="submit" value="For Her" />
+                        </form>
+                        <form action="https://www.tactics.com/info/mens-sizing-charts">
+                            <input type="submit" value="For Him" />
+                        </form>
+                    </li>
+                    <li>
+                        <h3>Find Your Shape</h3>
+
+                        <div class="omni-calculator" data-calculator="health/body-shape" data-width="300" data-config='{"bust":{"unitDefault":"inch"},"waist":{"unitDefault":"inch"},"hips":{"unitDefault":"inch"},"high_hip":{"unitDefault":"inch"}}' data-currency="USD" data-show-row-controls="false" data-version="3" data-t="1571632616904">
+                            <div class="omni-calculator-header">Body Shape Calculator</div>
+                            <div class="omni-calculator-footer">
+                                <a href="https://www.omnicalculator.com/health/body-shape" target="_blank"><img alt="Omni" class="omni-calculator-logo" src="https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg" /></a>
+                            </div>
+                        </div>
+                        <script async src="https://cdn.omnicalculator.com/sdk.js"></script>
+
+                        @*<p>This is what you need...</p>
+
+                        <form action="https://www.omnicalculator.com/health/body-shape">
+                            <input type="submit" value="Click Here" />
+                        </form>*@
+                    </li>
+                </ul>
+            </article>
+
+            @*<aside id="sidebar">
+                <div class="dark">
+                    <h3>Create Account</h3>
+                    <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="Leave a comment here..."></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                </div>
+            </aside>*@
+        </div>
+    </section>
+
+    <footer>
+        <p>À La Mode, Copyright &copy; 2019</p>
+        </footer>
+</body>
+</html>
