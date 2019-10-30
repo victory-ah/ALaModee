@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Helpful tool to figure out what clothes would fit best based on body type">
+    <meta name="keywords" content="what's my body type, what clothes would look good on me, what should I wear">
+    <meta name="author" content="Victoria Joseph">
+    <title>À La Mode | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">À</span> La Mode</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="services">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Making Your Style Sweeter</h1>
+            @**<p>
+                As a vain person, I need to know what clothes
+                suit me best so that I may look and feel
+                confident in all situations.
+            </p>*@
+        </div>
+    </section>
+
+    @*<section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>*@
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="./img/orangeglasses.jpg">
+                <h3>Style Advice</h3>
+               @* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>*@
+            </div>
+            <div class="box">
+                <img src="./img/purses.jpg">
+                <h3>Guides</h3>
+                @*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>*@
+            </div>
+            <div class="box">
+                <img src="./img/bluebackgroundcouple.jpg">
+                <h3>Posts</h3>
+                @*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>*@
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>À La Mode, Copyright &copy; 2019</p>
+    </footer>
+</body>
+</html>
