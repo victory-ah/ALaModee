@@ -23,9 +23,9 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="services">Services</a></li>
+                    <li class="current"><a asp-area="" asp-controller="Home" asp-action="Home">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="about">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="services">Services</a></li>
                 </ul>
             </nav>
         </div>
@@ -55,17 +55,24 @@
     <section id="boxes">
         <div class="container">
             <div class="box">
-                <img src="./img/orangeglasses.jpg">
+                
+                <img src="~/IMG/orangeglasses.jpg" />
+
                 <h3>Style Advice</h3>
                @* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>*@
             </div>
             <div class="box">
-                <img src="./img/purses.jpg">
+                
+                <img src="~/IMG/purses.jpg" />
+
                 <h3>Guides</h3>
                 @*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>*@
             </div>
             <div class="box">
-                <img src="./img/bluebackgroundcouple.jpg">
+                
+
+                <img src="~/IMG/bluebackgroundcouple.jpg" />
+
                 <h3>Posts</h3>
                 @*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>*@
             </div>
